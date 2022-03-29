@@ -57,6 +57,8 @@ public class mainSpiel {
 		s.spawnMinisquirrel(300);
 		System.out.println("MasterSq Energy nach Spawn: " + s.getEnergy() + '\n');
 		
+		System.out.println("Commit 2 test");
+		
 	/*	//Mastersquirrel bewegung test
 		int i;
 		System.out.println("Position vor Move: ");
