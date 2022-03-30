@@ -9,26 +9,18 @@ public abstract class Entity {
 	public abstract void updatePosition(XY newPos);
 	public abstract void nextStep();
 	public abstract String toString(); //?
-	
-	public XY getPos() {
-		return this.position;
-	}
-	
-	public int getId() {
-		return this.id;
-	}
-	
-	public int getEnergy () {
-		return this.energy;
-	}
-	
-	
+
+	public XY getPos() { return this.position; }
+
+	public int getId() { return this.id; }
+
+	public int getEnergy () { return this.energy; }
+
 	public boolean isSameEntity(Entity entity) {
 		if (this.id == entity.getId()) {
 			return true;
 		}
-		
 		return false;
 	}
-	
+
 }
